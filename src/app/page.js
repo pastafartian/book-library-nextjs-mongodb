@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -89,6 +90,8 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+
+        <Link href="/books-display.js">To Books</Link>
       </div>
     </main>
   )
